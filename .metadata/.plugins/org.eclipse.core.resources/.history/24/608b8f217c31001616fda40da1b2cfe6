@@ -1,0 +1,16 @@
+		public class ChangeProgram {
+			 public static void main(String[] args) {
+			 //int x,z;
+			 float x,y,z;
+			 
+			 x = 5.0f;
+			 y = 9.5f;
+			 
+			 z = x * y;
+
+			 System.out.println("The product is " + z);
+			 }
+			
+
+	}
+

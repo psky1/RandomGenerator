@@ -1,0 +1,60 @@
+import java.util.Scanner;
+
+public class FizzBuzz {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+				//String custName, custNumber, taxCode;
+				//float salesAmount, totalDue, taxPercent, totalTax;
+				//taxPercent = 0;
+				
+		for(int i=1; i<101; i++){
+			System.out.println("Count is: " + i);
+				         }
+				    
+				
+				
+				
+		/*		
+				Scanner keyboard = new Scanner(System.in);
+				
+				System.out.print( "Enter Customer Number:" );
+				custName = keyboard.next();
+				
+				System.out.print( "Enter Customer Name:" );
+				custNumber = keyboard.next();
+				
+				System.out.print( "Enter Sales Amount:" );
+				salesAmount = keyboard.nextFloat();
+				
+				System.out.print( "Enter Tax Code:" );
+				taxCode = keyboard.next();
+				
+
+				if (taxCode.equals("NRM"))
+				      taxPercent = .06f;
+				else if (taxCode.equals("NPF"))
+					  taxPercent = 0;
+				else if (taxCode.equals("BIZ"))
+					  taxPercent = .045f;
+					
+				totalTax = (taxPercent * salesAmount);
+				totalDue = (salesAmount + totalTax);
+				
+				System.out.println("Customer ID:" + custNumber);
+				System.out.println("Customer Name:" + custName);
+				System.out.println("Sales Amount:" + salesAmount);
+				System.out.println("Tax Code:" + taxCode);
+				System.out.println("Total Amount Due: $" + totalDue);
+*/
+
+				
+			}
+		}
+
+/*Write a program that prints the numbers from 1 to 100.
+ *  But for multiples of three print “Fizz” instead of the 
+ *  number and for the multiples of five print “Buzz”. For 
+ *  numbers which are multiples of both three and five print “FizzBuzz”.
+*/

@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class RainfallCalc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    int rainfall;
+	    int areaRoofInches;
+	    int inchesRoofLength;
+	    int gallonsRainfall;
+		Scanner scan = new Scanner(System.in);
+	    
+	    System.out.print("Enter the roof width: ");
+	    int roofWidth = scan.nextInt();
+	    
+	    System.out.print("Enter the roof length: ");
+	    int roofLength = scan.nextInt();
+	    
+	    System.out.print("Enter the inches of rainfall: ");
+	    int inchesRainfall = scan.nextInt();
+	    //calculateRainfall(int roofwidth, int roofLength, int inchesRainfall);
+	    
+	    
+	    
+	 //public int calculateRainfall(int roofwidth, int roofLength, int inchesRainfall){
+	    
+	    //Multiply roof width by 12 and multiply roof length by 12
+	    //Multiply the roof dimensions by the number of inches of rainfall.
+	    areaRoofInches = (roofWidth * 12) * (roofLength * 12);
+        rainfall = (areaRoofInches * inchesRainfall);
+	   // }
+
+    //Determine no. of gallons of rainfall
+        gallonsRainfall = rainfall/231;
+        System.out.print("Gallons of rainfall is: " + rainfall);
+
+        
+	}
+
+}

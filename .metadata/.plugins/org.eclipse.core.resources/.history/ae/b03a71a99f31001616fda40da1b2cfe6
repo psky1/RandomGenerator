@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class Grades {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+    System.out.print("Enter your test score: ");
+    Scanner scan = new Scanner(System.in);
+
+		int score = scan.nextInt();
+		String finalGrade;
+		finalGrade = " ";
+		char grade = 'F';//I'm not hopeful
+		
+		if (score > 89) {
+		    if (score >= 97)
+		         finalGrade = "A + +";
+		    else if (score <= 92)
+		    	finalGrade = "A + -";
+		    else finalGrade = "A";
+		}
+		
+		//else if (score > 79)
+		  //  grade = 'B';
+		//else if (score > 69)
+		//    grade = 'C';
+		//else if (score > 60)
+		//	grade = 'D';
+		//else 
+		//    grade = 'F';
+	
+		if (score > 69)
+		    System.out.println("Very good! You don't have to retake the exam!");
+		else
+		    System.out.println("Did you even look at the book?");
+			}
+}
+/*
+Also, modify the program to print a + or - after the 
+letter grade based on the last digit of the score. If the last digit 
+is between 0 and 2 then print a - after the grade. If the last digit 
+is 7,8 or 9 then print a + after the grade. Otherwise don't print a + 
+or - if the last digit is between 3 and 6. Change the output to print
+the student's grade.
+*/

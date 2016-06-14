@@ -1,0 +1,15 @@
+		public class ChangeProgram {
+			 public static void main(String[] args) {
+			 int x, y, z;
+			 
+			 x = 5;
+			 y = 9;
+			 
+			 z = x * y;
+
+			 System.out.println("The product is " + z);
+			 }
+			
+
+	}
+
